@@ -1,0 +1,22 @@
+{
+    "name": "panlatent/craft-attribute",
+    "description": "Attribute for CraftCMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "panlatent\\craft\\attribute\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "panlatent",
+            "email": "panlatent@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "craftcms/cms": "^5.0"
+    }
+}
